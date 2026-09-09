@@ -1,0 +1,174 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(84, 84, 84);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/*
+                       MIDDLE CONTAINER
+*/
+
+.middle-container{
+    flex: 1;
+    overflow-y: auto;
+    flex-direction: column;
+    gap: 16px;
+    
+
+}
+
+.middle-container::-webkit-scrollbar {
+    display: none;
+}
+
+.line1{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 470px;
+    padding: 10px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+.line2{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+.line3{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+.line4{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+.line5{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+                       LEFT PANEL
+*/
+
+
+
+.left-panel{
+    width: 50px;
+    flex-shrink: 0;
+    background-color: rgb(119, 119, 119);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.btn-container3{
+    background-color: rgb(173, 172, 172);
+    padding: 29px;
+    border-radius: 130px;
+}
+.btn-container2{
+    background-color: rgb(109, 109, 109);
+    padding: 27px;
+    border-radius: 75px;
+}
+.btn-container{
+    background-color: rgb(153, 153, 153);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 60px;
+}
+
+.btn1, .btn2, .btn3, .btn4,  .btn5{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(67, 67, 67);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+.right-panel{
+    width: 20%;
+    flex-shrink: 0;
+    background-color: rgb(69, 68, 68);
+    overflow: hidden;
+}
+
+.right-line1{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+.right-line2{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
